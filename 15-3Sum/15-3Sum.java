@@ -1,4 +1,4 @@
-// Last updated: 17/09/2026, 21:41:08
+// Last updated: 17/09/2026, 21:53:39
 1class Solution {
 2    public List<List<Integer>> threeSum(int[] nums) {
 3        List<List<Integer>> res=new ArrayList<>();
@@ -21,13 +21,15 @@
 20                    }
 21                    left++;
 22                    right--;
-23                }else if(sum<0){
-24                    left++;
-25                }else{
-26                    right--;
-27                }
-28            }
-29        }
-30        return res;
-31    }
-32}
+23                }
+24                else if(sum<0){
+25                    left++;
+26                }else{
+27                    right--;
+28                }
+29            }
+30        }
+31        return res;
+32    }
+33}
+34        
