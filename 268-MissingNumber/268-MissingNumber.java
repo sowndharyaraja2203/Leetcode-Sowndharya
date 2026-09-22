@@ -1,4 +1,4 @@
-// Last updated: 22/09/2026, 22:07:42
+// Last updated: 22/09/2026, 22:08:37
 1class Solution {
 2    public int missingNumber(int[] nums) {
 3        int res=nums.length;
