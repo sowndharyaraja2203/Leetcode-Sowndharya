@@ -1,11 +1,11 @@
-// Last updated: 27/09/2026, 22:33:19
+// Last updated: 27/09/2026, 22:35:42
 1class Solution {
 2    public boolean isPerfectSquare(int num) {
 3        int left=1;
 4        int right=num;
 5        while(left<=right){
 6            int mid=left+(right-left)/2;
-7            if(mid==num/mid&& num%mid==0){
+7            if(mid==num/mid && num%mid==0){
 8                return true;
 9            }else if(mid<num/mid){
 10                left=mid+1;
