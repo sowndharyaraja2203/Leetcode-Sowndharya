@@ -1,4 +1,4 @@
-// Last updated: 24/09/2026, 20:49:32
+// Last updated: 13/10/2026, 20:52:28
 1class Solution {
 2    public int searchInsert(int[] nums, int target) {
 3       int left=0;
