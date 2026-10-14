@@ -1,4 +1,4 @@
-// Last updated: 23/09/2026, 19:37:09
+// Last updated: 14/10/2026, 11:19:26
 1class Solution {
 2    public int maxFrequency(int[] nums, int k) {
 3        Arrays.sort(nums);
